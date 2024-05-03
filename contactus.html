@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Days Coffee PH</title>
+    <link rel="icon" type="image.x-icon" href="image/Logo.jpg">
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1><a href="index.html">Seven Days Coffee PH</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="A">Home</a></li>
+                    <li><a href="order.html" class="A">Order</a></li>
+                    <li><a href="contactus.html" class="A">Contact Us</a></li>
+                    <li><a href="aboutus.html" class="A">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="main-form">
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+          <label class="required" for="name">Your name:</label><br />
+          <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="email">Your email:</label><br />
+          <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label><br />
+          <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+          
+          <input id="submit_button" type="submit" value="Send email" />
+      </form>
+</div>
+</body>
+</html>
